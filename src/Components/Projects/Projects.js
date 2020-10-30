@@ -23,7 +23,7 @@ const Projects = () => {
             <div style={{ paddingTop: '12vh' }}>
 
                 {
-                    fakeData.map(data => <div className="card mb-5 container p-2" style={{ border: 'none', background: "lightGrey", boxShadow: '7px 7px 105px white' }} >
+                    fakeData.map(data => <div className="card mb-5 container p-2" key={data.img} style={{ border: 'none', background: "lightGrey", boxShadow: '7px 7px 105px white' }} >
                         <div className="row no-gutters d-flex align-items-center" >
                             <div className="col-md-3 " >
                                 <img src={data.img} className="card-img img-fluid " style={{ width: '20vw' }} alt="..." />

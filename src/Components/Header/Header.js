@@ -8,7 +8,7 @@ import './header.css';
 
 const Header = () => {
     return (
-        <div style={{ height: '100vh', background: '#111', position: 'relative' }}>
+        <div style={{ height: '110vh', background: '#111', position: 'relative' }}>
 
             <Navbar />
             <Particles
@@ -53,7 +53,7 @@ const Header = () => {
                         <Typical
                             steps={["Hello, I'm Mohammad Fahad!", 1200, 'A Self Taught Programmer', 1200, 'A Web Developer', 1200, 'A Team Player', 1200, 'A Motivator', 1200]}
                             loop={Infinity}
-                            wrapper="h1.font"
+                            wrapper="h1."
 
                         /></span> </strong></h1>
                     <h4><i><span className='text-light'>MERN stack developer</span></i></h4>
